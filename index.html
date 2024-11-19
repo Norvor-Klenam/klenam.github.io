@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="joinus.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a web developer with a passion for creating beautiful and functional websites.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Vue.js</li>
+            <li>Node.js, Express</li>
+            <li>Django, Python</li>
+            <li>Git, GitHub</li>
+        </ul>
+
+        <h3>Education</h3>
+        <p>Bachelor's Degree in Computer Science from XYZ University</p>
+
+        <h3>Personal Statement</h3>
+        <p>I believe in the power of technology to transform lives. I enjoy collaborating with others and continuously learning to keep up with industry trends. My goal is to create web applications that not only meet client needs but also provide an excellent
+            user experience.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project 1: Cool Website</h3>
+            <p>A responsive website built with HTML, CSS, and JavaScript.</p>
+            <a href="viewprojects.html" target="_blank">View Project</a>
+            <a href="https://www.youtube.com/watch?v=qKoajPPWpmo&list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C">CSS</a>
+            <a href="https://www.youtube.com/watch?v=xpZLS6R91rQ&list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl">JavaScript</a>
+            <a href="https://www.youtube.com/watch?v=dD2EISBDjWM&list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB">Learn HTML</a>
+        </div>
+        <div class="project">
+            <h3>Project 2: Awesome App</h3>
+            <p>A mobile application developed with React Native.</p>
+            <a href="viewprojects.html" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 3: Great Project</h3>
+            <p>An e-commerce site built with Django and Bootstrap.</p>
+            <a href="viewprojects.html" target="_blank">View Project</a>
+        </div>
+    </section>
+    <a href="joinus.html">Join us</a>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: norvorklenam5@gmail.com</p>
+    </section>
+    <div class="chat-box" id="chatBox">
+        <div class="chat-header">
+            <h4>Chat</h4>
+            <button class="close-btn" onclick="toggleChat()">×</button>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div class="message">Hello! How can I help you?</div>
+        </div>
+        <input type="text" class="chat-input" placeholder="Type a message..." id="chatInput" />
+        <button class="send-btn" onclick="sendMessage()">Send</button>
+    </div>
+    <button class="open-chat" onclick="toggleChat()">Chat</button>
+
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+        <a href="termsandpolicy.html">Terms and policy</a>
+    </footer>
+</body>
+
+</html>

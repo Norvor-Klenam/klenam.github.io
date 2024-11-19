@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="joinus.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to My Online Portfolio</h2>
+        <p>Hello! I'm Norvor Klenam, a web developer passionate about crafting unique and effective digital experiences. Here, you’ll find information about my skills, projects, and background. I aim to blend creativity with technical expertise to bring
+            innovative solutions to life.</p>
+        <p>Feel free to explore my work, learn more about my journey, and reach out if you'd like to collaborate or have any questions. Let's create something amazing together!</p>
+    </section>
+    <section id="home">
+
+        <p>
+            I'm a passionate web developer and designer committed to crafting clean, functional, and visually appealing websites. With a strong background in HTML, CSS, JavaScript, and frameworks like React and Django, I bring both creativity and technical expertise
+            to each project.
+        </p>
+        <h3>What I Do</h3>
+        <p>
+            I specialize in creating responsive websites and applications that adapt seamlessly to different devices. My goal is to make technology accessible and enjoyable for everyone. I love combining modern design with robust functionality to deliver a top-notch
+            user experience.
+        </p>
+        <h3>My Vision</h3>
+        <p>
+            I believe in the transformative power of technology to solve problems and improve lives. My vision is to build innovative, user-centered digital experiences that make a difference.
+        </p>
+        <button onclick="window.location.href='projects.html'">View My Projects</button>
+    </section>
+    <section id="join">
+        <h2>Join My Network</h2>
+        <p>If you'd like to stay connected and receive updates on my latest projects, feel free to join my network. Subscribe below to be the first to know about new content and opportunities to collaborate!</p>
+
+        <!-- Subscription Form -->
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <button type="submit">Subscribe</button>
+        </form>
+        <div class="chat-box" id="chatBox">
+            <div class="chat-header">
+                <h4>Chat</h4>
+                <button class="close-btn" onclick="toggleChat()">×</button>
+            </div>
+            <div class="chat-body" id="chatBody">
+                <div class="message">Hello! How can I help you?</div>
+            </div>
+            <input type="text" class="chat-input" placeholder="Type a message..." id="chatInput" />
+            <button class="send-btn" onclick="sendMessage()">Send</button>
+        </div>
+        <button class="open-chat" onclick="toggleChat()">Chat</button>
+        <div class="footer_wrapper__3oLgv">
+            <p class="footer_copy__s301D" id="pixeden-copy">©
+                <!-- -->2024
+                <!-- --><strong>Pixeden</strong> <span>All Rights Reserved. Secured by SSL.</span></p>
+            </nav>
+        </div>
+        <a href="joinus.html">Join us</a>
+        <section id="contact">
+            <!-- Contact section content -->
+        </section>
+
+        <footer>
+            <p>&copy; 2024 My Portfolio</p>
+            <a href="termsandpolicy.html">Terms and policy</a>
+        </footer>
+</body>
+
+</html>
